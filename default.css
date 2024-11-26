@@ -8,3 +8,8 @@ a {color: yellow}
     grid-template-rows: 50% 50%;
     grid-template-columns: 50% 50%;
 }
+#headline {
+    grid-row-end: span 1;
+    grid-column-end: span 2;
+    border: double 1px;
+  }
